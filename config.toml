@@ -1,0 +1,39 @@
+baseURL = "https://finknow.app/"
+title = "Spectral"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+# Refer to examples:
+# https://git.sbruder.de/kegelschiene/site/src/branch/master/config.toml
+# https://github.com/sbruder/spectral/blob/master/exampleSite/config.toml
+
+[params]
+fancyTitle = "FinKnow"
+copyright = "FinKnow"
+description = 'A financial literacy app<br />built to give you control<br />of your future'
+startbuttonText = "Sign Up Now"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+## Menu
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.contact]
+enable = true
+title = "What do you want FinKnow to teach you?"
+body = "Leave the staff at FinKnow a message."
+email = "finknowapp@gmail.com"
+subject = "New Message!"
+plain = false
